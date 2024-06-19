@@ -1,0 +1,20 @@
+{
+  "manifest_version": 3,
+  "name": "20-20-20 Eye Rule Extension",
+  "version": "1.0.0",
+  "description": "Reminds you to follow the 20-20-20 eye rule.",
+  "permissions": [
+    "tabs",
+    "storage",
+    "alarms"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "new.jpg"
+    }
+  }
+}
